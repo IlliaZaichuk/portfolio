@@ -678,9 +678,7 @@ float: left;
     line-height: 25px;
     gap:30px; 
   }
-  .game-experience__list{
-
-  }
+  
 }
 @media screen and (max-width: 768px){
  .hero{
