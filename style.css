@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
   }
+  .side-content{
+    width:30%;
+  }
   :root {
     --main-font-family: "Roboto", sans-serif;
     --secondary-font-family: "Poppins", sans-serif;
@@ -89,7 +92,7 @@
     height: 100%;
   }
   .main-content {
-    border: 1px solid red;
+    
     flex-grow: 2;
     padding-top: 153px;
     padding-left: 154px;
@@ -187,6 +190,8 @@
   }
   .game-experience__title .ball {
     background-image: url(./img/game.png);
+    
+    
   }
   .game-experience__list-subtitle {
     font-size: 18px;
@@ -236,8 +241,8 @@
     margin-bottom: 35px;
   }
   .education__title .ball {
-    background-image: url(./img/education.png)
-    ;
+    background-image: url(./img/education.png);
+    
   }
   
   .education__list-title {
@@ -282,6 +287,7 @@
   }
   .hobbies__title .ball {
     background-image: url(./img/hobbies.png);
+    
   }
   
   .hobbies__list-title {
@@ -397,12 +403,12 @@ ul{
     .line1-2{
         height: 15px;
         width: 40px;
-        margin-left: 55px;
+        
         position: absolute;
         border-radius: 0px;
         background: #877DBA;
         z-index: index 0;
-        left: 588px;
+        left: 648px;
           }
 .line2-1{
     height: 15px;
@@ -417,12 +423,12 @@ ul{
     .line2-2{
       height: 15px;
       width: 80px;
-      margin-left: 55px;
+      
       position: absolute;
       border-radius: 0px;
       background: #877DBA;
       z-index: index 0;
-      left: 538px;
+      left: 608px;
     }
   .line3-1{
     height: 15px;
@@ -437,12 +443,12 @@ ul{
     .line3-2{
       height: 15px;
       width: 108px;
-      margin-left: 55px;
+      
       position: absolute;
       border-radius: 0px;
       background: #877DBA;
       z-index: index 0;
-      left:500px
+      left:580px
     }
   .line4-1{
       height: 15px;
@@ -457,12 +463,12 @@ ul{
       .line4-2{
         height: 15px;
         width: 80px;
-        margin-left: 55px;
+        
         position: absolute;
         border-radius: 0px;
         background: #877DBA;
         z-index: index 0;
-        left:538px;
+        left:608px;
       }
   .line5-1{
     height: 15px;
@@ -477,8 +483,8 @@ ul{
   .line5-2{
     height: 15px;
     width: 46px;
-    margin-left: 55px;
-    left: 586px;
+    
+    left: 642px;
     border-radius: 0px;
     background: #877DBA;
     position:absolute;
@@ -491,23 +497,22 @@ ul{
     margin-top: 25px;    
     border-radius: 0px;
     background: #BBB5DB;
-    top:-60px;
+    
     z-index: 0;
+    position: relative;
           }
   .line6-2{
     height: 15px;
     width: 80px;
-    margin-left: 55px;
+    
     position:absolute;
     border-radius: 0px;
     background: #877DBA;
     z-index: index 1;
     margin-bottom: 0px;
-    left:600px
+    left:608px
           }
-.l6{
-    position: relative;
-}
+
 .elipse{
     width: 18px;
 height: 18px;
@@ -525,6 +530,7 @@ float: left;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.5);
     float: left;
+    
 }
 .elipse-first{
     width: 18px;
@@ -591,7 +597,8 @@ float: left;
     margin-top: 35px;
   width: 360px;
   height: 45px;
- margin-left: 55px;
+ margin-left: 45px;
+ margin-bottom: 15px;
   
   
   font-family: 'Poppins';
@@ -613,16 +620,24 @@ float: left;
 .dribbble-img
   {
     background-image: url(./img/dribbble.png);
-
+    width: 29px;
+    height: 29px;
   }
 .twitter-img{
   background-image: url(./img/twitter.png);
+  width: 29px;
+    height: 29px;
 }
 .behance-img{
   background-image: url(./img/behance.png);
+  width: 29px;
+    height: 29px;
 }
+
 .figma-img{
   background-image: url(./img/figma.png);
+  width: 29px;
+    height: 29px;
 }
 .boll{
   border-radius: 50%;
@@ -678,4 +693,158 @@ float: left;
  .hero__job-title{
    text-align: center;
  }
+ .content{
+   flex-direction: column;
+ }
+ .side-content{
+   width: 100%;
+ }
+ .line1-1{
+  height: 10px;
+  width: 324px;
+ 
+  }
+  .line1-2{
+      height: 10px;
+      width: 20px;
+      left:324px;
+      margin:0;
+        }
+.line2-1{
+  height: 10px;
+  width: 324px;
+  
+  
+  z-index: 1;
+  }
+  .line2-2{
+    height: 10px;
+    width: 20px;
+    left:324px;
+    margin:0;
+  }
+.line3-1{
+  height: 10px;
+  width: 290px;
+  
+  }
+  .line3-2{
+    height: 10px;
+    width: 54px;
+    left:290px;
+    margin:0;
+  }
+.line4-1{
+    height: 10px;
+    width: 304px;
+   
+    }
+    .line4-2{
+      height: 10px;
+      width: 40px;
+      left:304px;
+      margin:0;
+    }
+.line5-1{
+  height: 10px;
+  width: 321px;
+  
+      }
+.line5-2{
+  height: 10px;
+  width: 23px;
+  left:321px;
+  margin:0;
+      }
+ .line6-1{
+  height: 10px;
+  width: 304px;
+ }
+.line6-2{
+  height: 10px;
+  width: 40px;
+  left:304px;
+  
+}
+body{
+  width: 425,6;
+}
+}
+
+
+@media screen and (max-width: 375px){
+  .line1-1{
+    height: 10px;
+    width: 304px;
+   
+    }
+    .line1-2{
+        height: 10px;
+        width: 20px;
+        left:304px;
+        margin:0;
+          }
+  .line2-1{
+    height: 10px;
+    width: 304px;
+    
+    
+    z-index: 1;
+    }
+    .line2-2{
+      height: 10px;
+      width: 20px;
+      left:304px;
+      margin:0;
+    }
+  .line3-1{
+    height: 10px;
+    width: 270px;
+    
+    }
+    .line3-2{
+      height: 10px;
+      width: 54px;
+      left:270px;
+      margin:0;
+    }
+  .line4-1{
+      height: 10px;
+      width: 284px;
+     
+      }
+      .line4-2{
+        height: 10px;
+        width: 40px;
+        left:284px;
+        margin:0;
+      }
+  .line5-1{
+    height: 10px;
+    width: 301px;
+    
+        }
+  .line5-2{
+    height: 10px;
+    width: 23px;
+    left:301px;
+    margin:0;
+        }
+   .line6-1{
+    height: 10px;
+    width: 284px;
+   }
+  .line6-2{
+    height: 10px;
+    width: 40px;
+    left:284px;
+    
+  }
+}
+@media screen and (max-width: 320px){
+  .ball{
+    width: 34px;
+    height:  34px;
+
+  }
 }
