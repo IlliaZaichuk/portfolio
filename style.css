@@ -323,7 +323,8 @@
     font-size: 16px;
     line-height: 170%;
     /* or 56px */
-    
+    margin-left: 35px;
+    margin-right: 35px;
     letter-spacing: 0.03em;
     
     /* white */
