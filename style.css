@@ -384,7 +384,7 @@ ul{
     }
 /*line*/
 .line1-1{
-    height: 20px;
+    height: 15px;
     width: 648px;
     margin-left: 55px;
         position: relative;
@@ -394,7 +394,7 @@ ul{
     z-index: 1;
     }
     .line1-2{
-        height: 20px;
+        height: 15px;
         width: 40px;
         margin-left: 55px;
         position: absolute;
@@ -404,7 +404,7 @@ ul{
         left: 588px;
           }
 .line2-1{
-    height: 20px;
+    height: 15px;
     width: 608px;
     position: relative;
     margin-left: 55px;
@@ -414,7 +414,7 @@ ul{
     z-index: 1;
     }
     .line2-2{
-      height: 20px;
+      height: 15px;
       width: 80px;
       margin-left: 55px;
       position: absolute;
@@ -424,7 +424,7 @@ ul{
       left: 538px;
     }
   .line3-1{
-    height: 20px;
+    height: 15px;
     width: 580px;
     margin-left: 55px;
     position: relative;
@@ -434,7 +434,7 @@ ul{
     z-index: 1;
     }
     .line3-2{
-      height: 20px;
+      height: 15px;
       width: 108px;
       margin-left: 55px;
       position: absolute;
@@ -444,7 +444,7 @@ ul{
       left:500px
     }
   .line4-1{
-      height: 20px;
+      height: 15px;
       width: 608px;
       position: relative;
       margin-left: 55px; 
@@ -454,7 +454,7 @@ ul{
       z-index: 1;
       }
       .line4-2{
-        height: 20px;
+        height: 15px;
         width: 80px;
         margin-left: 55px;
         position: absolute;
@@ -464,7 +464,7 @@ ul{
         left:538px;
       }
   .line5-1{
-    height: 20px;
+    height: 15px;
     width: 642px;
     margin-left: 55px;
     position: relative;    
@@ -474,7 +474,7 @@ ul{
      z-index: 1;
         }
   .line5-2{
-    height: 20px;
+    height: 15px;
     width: 46px;
     margin-left: 55px;
     left: 586px;
@@ -484,7 +484,7 @@ ul{
     z-index: index 0;
         }
    .line6-1{
-    height: 20px;
+    height: 15px;
     width: 608px;
     margin-left: 55px;
     margin-top: 25px;    
@@ -494,7 +494,7 @@ ul{
     z-index: 0;
           }
   .line6-2{
-    height: 20px;
+    height: 15px;
     width: 80px;
     margin-left: 55px;
     position:absolute;
@@ -535,7 +535,7 @@ float: left;
     float: left; 
 }
 .personal-skills-text{
-    margin-top: 75px;
+    margin-top: 25px;
     margin-left: 55px;
     font-family: 'Poppins';
     font-style: normal;
@@ -549,7 +549,7 @@ float: left;
     color: #FFFFFF;
   }
   .personal-skills-title{
-    margin-top: 90px;
+    margin-top: 50px;
   margin-left: 55px;
   
   
@@ -590,7 +590,7 @@ float: left;
     margin-top: 35px;
   width: 360px;
   height: 45px;
- margin-left: 155px;
+ margin-left: 55px;
   
   
   font-family: 'Poppins';
@@ -607,17 +607,6 @@ float: left;
   color: #FFFFFF;
   
   }
-  .folow_me-text::before {
-    content: "";
-    width: 25px;
-    height: 25px;
-  
-    
-    left: -55px;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  
   
   
 .dribbble-img
@@ -636,8 +625,8 @@ float: left;
 }
 .boll{
   border-radius: 50%;
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   background-color: #FFFFFF;
   position: relative;
   margin-top: 40px;
