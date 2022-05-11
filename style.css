@@ -513,68 +513,60 @@ ul{
     left:608px
           }
 
-.elipse{
-    width: 18px;
-height: 18px;
-margin-top: 28px;
-margin-left: 18px;
-border-radius: 50%;
-background-color: #FFFFFF;
-float: left;
-}
-.elipse-another{
-    width: 18px;
-    height: 18px;
-    margin-top: 28px;
-    margin-left: 18px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.5);
-    float: left;
-    
-}
-.elipse-first{
-    width: 18px;
-    height: 18px;
-    margin-top: 28px;
-    margin-left: 55px;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-    float: left; 
-}
-.personal-skills-text{
-    margin-top: 25px;
-    margin-left: 55px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size:16px;
-    line-height: 45px;
-    letter-spacing: 0.01em;
-    
-    /* white */
-    
-    color: #FFFFFF;
-  }
-  .personal-skills-title{
-    margin-top: 50px;
-  margin-left: 55px;
-  
-  
-  /* H3 */
-  
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 70px;
-  /* identical to box height */
-  
-  letter-spacing: 0.01em;
-  
-  /* white */
-  
-  color: #FFFFFF;
-  }
+          .personal-skills-title {
+            /* H3 */
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 70px;
+          margin-left: 50px;
+          margin-top: 40px;
+          
+          /* identical to box height */
+          
+          letter-spacing: 0.01em;
+          
+          /* white */
+          
+          color: #FFFFFF;
+          }
+          
+          .personal-skills-text {
+            font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 45px;
+          letter-spacing: 0.01em;
+          margin-left: 50px;
+          /* white */
+          color: #FFFFFF;
+          
+          
+          }
+          ul{
+            list-style-type: none;
+          }
+          .elips-white{
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: #FFFFFF;
+            margin-left: 10px;
+          }
+          .elips{
+            display: flex;
+            flex-direction: row;
+            margin-left: 40px;
+          }
+          .elips-greey{
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            margin-left: 10px;
+          }
   .folow_me-title{
     margin-top: 100px;
   width: 406px;
